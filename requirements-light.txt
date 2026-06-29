@@ -1,0 +1,37 @@
+# 轻量版依赖 - 优化容器镜像大小
+# 核心依赖（必须）
+fastapi==0.111.0
+uvicorn==0.24.0
+pydantic==2.12.5
+pydantic-settings==2.10.1
+python-dotenv==1.0.1
+requests==2.31.0
+openai>=1.40.0
+pymilvus==2.5.15
+minio==7.2.0
+redis==5.0.1
+python-multipart==0.0.7
+psutil==5.9.0
+
+# 文档处理（精简版）
+python-docx==0.8.11
+pdfplumber==0.11.9
+tika==3.1.0
+
+# LangChain核心（只保留必要组件）
+langchain-core==0.3.18
+langchain-text-splitters==0.3.0
+langchain-openai==0.2.1
+langchain-community==0.3.4
+langchain-milvus==0.1.5
+
+# 对象存储和向量数据库依赖
+boto3==1.42.63
+botocore==1.42.63
+
+tiktoken==0.12.0
+
+# 可选OCR功能（按需安装）
+# opencv-python-headless==4.8.1.78  # 轻量版OpenCV
+# paddleocr-lite==2.7.0.3           # 轻量版OCR
+# paddlepaddle==2.5.1               # 深度学习框架
