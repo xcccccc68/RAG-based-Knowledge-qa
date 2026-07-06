@@ -1,4 +1,4 @@
-# 审计知识问答系统 (Audit Knowledge Base QA)
+# 知识问答系统 (Knowledge Base QA)
 
 基于 RAG（检索增强生成）的知识库问答系统，支持多格式文档接入、混合检索、流式问答、敏感词审计与提示词防注入。
 
